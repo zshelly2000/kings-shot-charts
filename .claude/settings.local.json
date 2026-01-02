@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(python -m pytest:*)",
-      "Bash(python examples/load_data_demo.py:*)"
+      "Bash(python examples/load_data_demo.py:*)",
+      "Bash(python examples/create_shot_chart_demo.py:*)",
+      "Bash(python:*)"
     ]
   }
 }

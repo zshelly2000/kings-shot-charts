@@ -1,21 +1,21 @@
 game_id,player_id,player_name,team,period,minutes_remaining,seconds_remaining,shot_made,shot_type,shot_distance,loc_x,loc_y,shot_zone,action_type
-0022300123,203954,De'Aaron Fox,SAC,1,11,23,True,2PT Field Goal,5.2,15,-8,Paint,Driving Layup
-0022300123,203954,De'Aaron Fox,SAC,1,9,45,False,3PT Field Goal,24.3,-220,80,Left Corner 3,Jump Shot
-0022300123,203954,De'Aaron Fox,SAC,1,7,12,True,2PT Field Goal,12.5,45,120,Mid-Range,Pull-Up Jump Shot
-0022300123,1629029,Domantas Sabonis,SAC,1,10,34,True,2PT Field Goal,3.1,-12,-15,Paint,Hook Shot
+0022300123,203954,De'Aaron Fox,SAC,1,11,23,True,2PT Field Goal,5.2,15,25,Paint,Driving Layup
+0022300123,203954,De'Aaron Fox,SAC,1,9,45,False,3PT Field Goal,24.3,-220,88,Left Corner 3,Jump Shot
+0022300123,203954,De'Aaron Fox,SAC,1,7,12,True,2PT Field Goal,12.5,45,125,Mid-Range,Pull-Up Jump Shot
+0022300123,1629029,Domantas Sabonis,SAC,1,10,34,True,2PT Field Goal,3.1,-12,35,Paint,Hook Shot
 0022300123,1629029,Domantas Sabonis,SAC,1,8,56,True,2PT Field Goal,8.7,35,95,Paint,Turnaround Jump Shot
-0022300123,202699,Draymond Green,SAC,1,6,23,False,3PT Field Goal,23.8,180,-140,Right Wing 3,Jump Shot
+0022300123,202699,Draymond Green,SAC,1,6,23,False,3PT Field Goal,23.8,168,148,Right Wing 3,Jump Shot
 0022300123,203954,De'Aaron Fox,SAC,2,11,45,True,2PT Field Goal,15.3,-78,165,Mid-Range,Fadeaway Jump Shot
 0022300123,203954,De'Aaron Fox,SAC,2,9,12,False,2PT Field Goal,18.2,92,188,Mid-Range,Jump Shot
-0022300123,1629029,Domantas Sabonis,SAC,2,7,34,True,2PT Field Goal,4.5,-8,-22,Paint,Dunk
-0022300123,1628989,Keegan Murray,SAC,2,5,56,True,3PT Field Goal,24.1,145,-165,Right Corner 3,Jump Shot
-0022300123,1628989,Keegan Murray,SAC,2,3,23,False,3PT Field Goal,25.7,0,230,Top of Key 3,Jump Shot
-0022300123,203954,De'Aaron Fox,SAC,3,11,12,True,2PT Field Goal,6.8,22,-12,Paint,Floating Jump Shot
-0022300123,203954,De'Aaron Fox,SAC,3,8,45,False,3PT Field Goal,24.9,-195,125,Left Wing 3,Jump Shot
-0022300123,1629029,Domantas Sabonis,SAC,3,6,23,True,2PT Field Goal,2.3,-5,-18,Paint,Layup
-0022300123,1628989,Keegan Murray,SAC,3,4,01,True,3PT Field Goal,23.6,178,-145,Right Wing 3,Catch and Shoot
+0022300123,1629029,Domantas Sabonis,SAC,2,7,34,True,2PT Field Goal,4.5,-8,18,Paint,Dunk
+0022300123,1628989,Keegan Murray,SAC,2,5,56,True,3PT Field Goal,24.1,218,92,Right Corner 3,Jump Shot
+0022300123,1628989,Keegan Murray,SAC,2,3,23,False,3PT Field Goal,25.7,5,238,Top of Key 3,Jump Shot
+0022300123,203954,De'Aaron Fox,SAC,3,11,12,True,2PT Field Goal,6.8,22,42,Paint,Floating Jump Shot
+0022300123,203954,De'Aaron Fox,SAC,3,8,45,False,3PT Field Goal,24.9,-172,152,Left Wing 3,Jump Shot
+0022300123,1629029,Domantas Sabonis,SAC,3,6,23,True,2PT Field Goal,2.3,-5,28,Paint,Layup
+0022300123,1628989,Keegan Murray,SAC,3,4,01,True,3PT Field Goal,23.6,175,145,Right Wing 3,Catch and Shoot
 0022300123,203954,De'Aaron Fox,SAC,4,10,34,False,2PT Field Goal,16.5,-88,172,Mid-Range,Step Back Jump Shot
 0022300123,203954,De'Aaron Fox,SAC,4,8,12,True,2PT Field Goal,8.2,31,98,Paint,Driving Layup
-0022300123,1629029,Domantas Sabonis,SAC,4,5,56,True,2PT Field Goal,5.4,-18,-28,Paint,Tip Shot
-0022300123,1628989,Keegan Murray,SAC,4,3,23,True,3PT Field Goal,25.2,-12,228,Top of Key 3,Jump Shot
-0022300123,1628989,Keegan Murray,SAC,4,1,45,False,3PT Field Goal,26.3,203,-120,Right Wing 3,Jump Shot
+0022300123,1629029,Domantas Sabonis,SAC,4,5,56,True,2PT Field Goal,5.4,-18,22,Paint,Tip Shot
+0022300123,1628989,Keegan Murray,SAC,4,3,23,True,3PT Field Goal,25.2,8,242,Top of Key 3,Jump Shot
+0022300123,1628989,Keegan Murray,SAC,4,1,45,False,3PT Field Goal,26.3,178,148,Right Wing 3,Jump Shot
