@@ -1,0 +1,23 @@
+#!/bin/bash
+# Custom command: /spec
+# Usage: /spec [feature-name]
+# Description: Generates a detailed specification document for a feature
+
+cat << 'EOF'
+Please create a detailed specification document for the following feature.
+
+Include these sections:
+1. **Overview**: What is this feature?
+2. **User Story**: As a [user], I want [goal] so that [benefit]
+3. **Requirements**: Functional and non-functional requirements
+4. **Data Structures**: What data do we need?
+5. **API/Functions**: Key functions and their signatures
+6. **UI/Output**: What does the user see?
+7. **Edge Cases**: What could go wrong?
+8. **Testing**: How do we verify it works?
+9. **Implementation Notes**: Technical considerations
+
+Save this spec to: docs/specs/[feature-name].md
+
+Feature to spec:
+EOF
