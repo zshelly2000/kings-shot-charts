@@ -1,107 +1,69 @@
 # Kings Shot Chart Generator
 
-## Project Overview
-A data visualization tool to create interactive shot charts for Sacramento Kings games, showing where shots were taken and their outcomes.
+## Project Status: Complete (v1.0)
 
-## Project Goals
-- Generate visual shot charts from game data
-- Show shot location, type (2PT/3PT), and outcome (made/missed)
-- Provide filtering by player, quarter, game, etc.
-- Create shareable/exportable charts
+Core functionality is implemented and tested. The project successfully generates professional shot charts from both CSV data and the NBA Stats API.
+
+## What's Implemented
+
+- **Court Drawing** - Accurate NBA court with all markings (`src/visualization/court.py`)
+- **Shot Charts** - Configurable visualizations with Kings colors (`src/visualization/shot_chart.py`)
+- **Data Loading** - CSV parsing with validation (`src/data/data_loader.py`)
+- **NBA API Client** - Real game data with caching (`src/data/nba_api_client.py`)
+- **Test Suite** - 156 unit tests across all modules
 
 ## Tech Stack
+
 - **Language**: Python 3.11+
-- **Data**: NBA API / Manual CSV input
-- **Visualization**: Matplotlib, Plotly, or similar
-- **Web Interface** (optional): Streamlit or Flask
+- **Data**: pandas, nba_api
+- **Visualization**: Matplotlib
+- **Testing**: pytest
 
-## Current Status
-🚧 **Phase**: Environment Setup & Planning
-- [x] Environment setup complete
-- [x] Project structure created
-- [ ] Requirements defined
-- [ ] Data source identified
-- [ ] Initial prototype
+## Project Structure
 
-## Development Principles
-
-### Code Style
-- Follow PEP 8 for Python
-- Use type hints where appropriate
-- Write docstrings for functions/classes
-- Keep functions small and focused
-
-### Testing
-- Write tests as we build features
-- Test with real Kings game data
-- Validate visualizations manually
-
-### Documentation
-- Keep this CLAUDE.md updated as we progress
-- Document data sources and API usage
-- Add comments for complex logic
-
-## File Structure
 ```
 kings-shot-charts/
-├── .claude/              # Claude Code config
-│   └── commands/         # Custom commands
-├── docs/                 # Documentation
-│   ├── ai/              # AI interaction logs
-│   └── specs/           # Project specifications
-├── src/                 # Source code (to be created)
-│   ├── data/           # Data fetching/processing
-│   ├── visualization/  # Chart generation
-│   └── utils/          # Helper functions
-├── tests/               # Test files
-├── data/                # Sample data files
-├── output/              # Generated charts
-├── .gitignore
-├── CLAUDE.md            # This file
-├── README.md
-└── requirements.txt     # Python dependencies
+├── src/
+│   ├── data/              # Data fetching and processing
+│   ├── visualization/     # Court and chart rendering
+│   └── utils/             # Configuration and constants
+├── tests/                 # Unit tests (156 tests)
+├── examples/              # Demo scripts
+├── data/                  # Sample data and cache
+├── output/                # Generated charts
+└── docs/                  # Documentation
 ```
 
-## Data Sources
-- NBA Stats API (nba_api Python package)
-- Manual CSV upload option
-- Focus on Sacramento Kings games (2023-24 season)
+## Future Enhancements
 
-## Key Features (Planned)
-1. **Data Collection**: Fetch shot data from NBA API
-2. **Court Visualization**: Draw NBA court with accurate dimensions
-3. **Shot Plotting**: Plot shots with color coding (made/missed)
-4. **Filtering**: By player, quarter, shot type, date range
-5. **Export**: Save as PNG/PDF/SVG
-6. **Interactive** (stretch): Web interface with Streamlit
+Potential additions if the project continues:
 
-## Commands for Claude Code
+- [ ] Streamlit web interface
+- [ ] Shot heatmaps / density plots
+- [ ] Player comparison charts
+- [ ] Zone efficiency analysis
+- [ ] Game animation sequences
+- [ ] Season trend visualizations
 
-### Custom Commands (in .claude/commands/)
-- `spec`: Generate detailed feature specification
-- `implement`: Implement a feature from spec
-- `test`: Generate tests for a module
-- `refactor`: Improve code quality
+## Development Notes
 
-### Standard Workflow
-1. **Spec first**: Always write spec in docs/specs/ before coding
-2. **Test-driven**: Write tests alongside features
-3. **Iterate**: Build in small, testable increments
-4. **Document**: Update CLAUDE.md and add inline comments
+### Running Tests
+```bash
+pytest tests/ -v
+```
 
-## Communication Guidelines
-- Ask clarifying questions before big decisions
-- Suggest multiple approaches when there are trade-offs
-- Explain technical choices clearly
-- Show progress with checkpoints
+### Demo Scripts
+```bash
+python examples/create_shot_chart_demo.py    # Sample data charts
+python examples/fetch_real_game_demo.py      # NBA API demo
+```
 
-## Notes for AI
-- User is learning Python and data visualization
-- Explain concepts when introducing new libraries
-- Provide examples and documentation links
-- Encourage best practices but keep it practical
+### Key Configuration
+- Court dimensions: `src/utils/config.py`
+- Kings team ID: 1610612758
+- Default season: 2024-25
 
 ---
-**Last Updated**: January 2, 2026
-**Current Phase**: Setup
-**Next Steps**: Define detailed requirements and data structure
+**Version**: 1.0
+**Last Updated**: January 3, 2026
+**Status**: Complete
